@@ -32,7 +32,7 @@ export default function Dictionary() {
                 type="Search"
                 autoFocus={true}
                 onChange={handleKeywordChange}
-                size="50"
+                size="70"
                 placeholder="Cat..."
               />
             </form>
