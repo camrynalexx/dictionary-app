@@ -10,12 +10,13 @@ export default function Dictionary() {
     }
 
     function search(event) {
-        event.preventDefault();
-        alert(`searching for ${keyword} definition`);
+      event.preventDefault();
+      alert(`searching for ${keyword} definition`);
 
-        let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-        
-        axios.get(apiUrl).then(handleResponse);
+      // documentation: https://api.dictionaryapi.dev/
+      let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+
+      axios.get(apiUrl).then(handleResponse);
     }
 
 
@@ -43,7 +44,7 @@ export default function Dictionary() {
                 autoFocus={true}
                 onChange={handleKeywordChange}
                 size="70"
-                placeholder="Cat..."
+                placeholder="Hello..."
               />
             </form>
           </section>
