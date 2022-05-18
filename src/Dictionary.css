@@ -1,16 +1,22 @@
 .Dictionary section {
-    margin: 20px 0;
-    background: #eaedef;
-    padding: 40px; 
+  margin: 20px 0;
+  background: #eaedef;
+  padding: 40px;
+}
+
+.Dictionary h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 70px;
 }
 
 .Dictionary h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .Dictionary form {
   border-radius: 6px;
-  
 }
 
 .Dictionary-logo {
