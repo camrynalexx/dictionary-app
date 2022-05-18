@@ -1,0 +1,19 @@
+.Dictionary section {
+    margin: 20px 0;
+    background: #eaedef;
+    padding: 40px; 
+}
+
+.Dictionary h2 {
+    font-size: 20px;
+}
+
+.Dictionary form {
+  border-radius: 6px;
+  
+}
+
+.Dictionary-logo {
+  display: block;
+  margin: 0 auto;
+}
