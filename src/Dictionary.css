@@ -23,3 +23,7 @@
   display: block;
   margin: 0 auto;
 }
+
+.Results h2 {
+  font-size: 38px;
+}
