@@ -4,7 +4,7 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <Dictionary />
+      <Dictionary defaultKeyword="Hello"/>
       <footer className="text-center">
         Coded by
         <a href="https://www.linkedin.com/in/camrynalexx/"> Camryn Lee </a>
